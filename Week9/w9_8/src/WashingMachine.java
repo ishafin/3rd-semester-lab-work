@@ -1,0 +1,16 @@
+class WashingMachine extends Appliance {
+
+
+    WashingMachine(String brand, int power) {
+        super(brand, power);
+    }
+
+
+    void turnOn() {
+        System.out.println(brand + " Washing Machine is now ON. Power: " + power + "W");
+    }
+
+    void turnOff() {
+        System.out.println(brand + " Washing Machine is now OFF.");
+    }
+}
